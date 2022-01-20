@@ -12,7 +12,7 @@ const App = () => {
   const mulCount = () => setCount((previousCount) => previousCount * 2);
   const divide3 = () =>
     setCount((previousCount) => {
-      return previousCount % 3 === 0 ? previousCount / 3 : previousCount
+      return previousCount % 3 === 0 ? previousCount / 3 : previousCount;
     });
 
   return (
